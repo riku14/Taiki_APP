@@ -1,0 +1,107 @@
+body {
+  background-color: rgb(255, 218, 168);
+  padding: 20px;
+}
+
+/*タイトルエリア*/
+.title_area{
+	padding-top : 30px;
+	font-size: 30px;
+}
+
+/*ユーザーIDラベル*/
+.label_userID{
+	display: flex;
+	align-items: center;
+	padding-left: 15px;
+	padding-bottom: 15px;
+}
+.label_userID input{
+	width: 100px;
+	height: 25px;
+}
+
+/*確認ボタン*/
+.check_btn{
+	display: flex;
+	width: 70px;
+	height: 30px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*登録情報記述エリア*/
+.register_infomation_area{
+	width: 800px;
+	padding: 20px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	margin-bottom: 10px;
+}
+
+/*年齢部記述*/
+.label_age input{
+	width: 60px;
+	margin-bottom: 15px;
+}
+
+/*配信者用インフォ*/
+.label_streamer_infomation{
+	width: 120px;
+	padding: 5px;
+	margin-bottom: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+/*配信チャンネル記載エリア*/
+.label_stream_channel input{
+	width: 600px;
+}
+
+/*ボタンエリア*/
+.btn_area{
+	display: flex;
+	width: 840px;
+}
+
+/*システムトップ画面へボタン*/
+.userScreen_redirectBtn{
+	display: flex;
+	width: 120px;
+	height: 50px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*登録ボタン*/
+.register_btn{
+	display: flex;
+	width: 120px;
+	height: 50px;
+	padding: 10px;
+	margin: 0 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*エラーメッセージ*/
+.errorMessage{
+	display: none;
+	margin-top:10px;
+	font-size: 12px;
+}

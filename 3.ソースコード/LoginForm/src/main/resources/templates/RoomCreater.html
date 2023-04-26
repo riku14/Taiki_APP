@@ -1,0 +1,85 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link th:href="@{/css/RoomCreaterCss.css}" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src=""></script>
+</head>
+<body>
+	<div class="title_area">部屋作成者画面</div>
+	<div class="room_creatInfo_area">
+		<div class="label_roomInfo">
+			<label>部屋説明 : </label><input type="text" placeholder="RoomInfo">
+		</div>
+		<div class="label_contentsName">
+			<label>コンテンツ名 : </label><input type="text" placeholder="ContentsName">
+		</div>
+		<div class="label_passwordKbn">
+			<label>パスワード : </label>
+			<form>
+				<label>OFF<input type="radio" name="passwordKey_radioBtn" value="false" checked></label>
+				<label>ON<input type="radio" name="passwordKey_radioBtn" value="true"></label>
+			</form>
+			<div class="label_PasswordKey"><label>パスワードKey : </label><input type="text" placeholder="PasswordKey"></div>
+			<div class="clear_btn">クリア</div>
+		</div>
+	</div>
+	<div class="btn_area">
+		<div class="createRoom_btn">部屋作成</div>
+		<div class="errorMessage" style="color: red;">エラーメッセージを表示</div>	
+	</div>
+		
+	<div class="creatRoomInfo_area">
+		<div class="room_no">
+			<label>部屋No : </label><input type="text" placeholder="RoomNo">
+		</div>
+		<div class="label_roomRock">
+			<label>部屋ロック : </label>
+			<form>
+				<label>OFF<input type="radio" name="roomRock_radioBtn" value="false" checked></label>
+				<label>ON<input type="radio" name="roomRock_radioBtn" value="true"></label>
+			</form>
+			
+			<div class="entry_number">
+				<label>参加人数 : </label><input type="number" min="0" max="30">
+			</div>
+		</div>
+		
+		
+ 		<table border="1">
+    		<tr>
+      			<th class="nowEntry">参加者</th>
+      			<th class="entryNo">No</th>
+      			<th class="entryName">名前</th>
+      			<th class="entryNum">回数</th>
+      			<th class="getOut">退出</th>
+    		</tr>
+    		<tr>
+      			<td><input type="checkbox" placeholder="nowEntry"></td>
+     			<td>1</td>
+     			<td>道明寺ごろう</td>
+     			<td><input type="number" min="0" max="99"></td>
+     			<td><input type="submit" value="退出"></td>
+    		</tr>
+  		</table>
+		<div class="roomUpDate_btn">更新</div>
+		<div class="roomDelete_btn">部屋の解散</div>
+			
+			
+			
+		</div>
+		
+		
+		
+		
+		
+		
+		
+	</div>
+		
+		
+		
+		
+		
+		
+</body>
+</html>

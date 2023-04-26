@@ -1,0 +1,108 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link th:href="@{/css/EntryRoomCss.css}" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src=""></script>
+</head>
+<body>
+	<div class="title_header">
+		<div class="title_area">部屋参加者画面</div>
+		<div class="redirectMenu_btn">メニューへ</div>
+	</div>
+	<div class="serchView_area">
+		<div class="roomSerch_area">
+			<div class="label_roomNo">
+				<label>部屋No : </label><input type="text" placeholder="RoomNo">
+			</div>
+			<div class="label_contentsName">
+				<label>コンテンツ名 : </label><input type="text" placeholder="ContentsName">
+			</div>
+			<div class="serchBtn_area">
+				<div class="clear_btn">クリア</div>
+				<div class="serchRoom_btn">部屋検索</div>
+			</div>
+		</div>
+		
+ 		<table class="serchView_table" border="1">
+			<tr>
+      			<th class="th_entryCheck">入室</th>
+      			<th class="th_roomNo">部屋No</th>
+      			<th class="th_contentsName">コンテンツ名</th>
+      			<th class="th_roomInfomation">説明</th>
+      			<th class="th_entryUserNum">待機人数</th>
+      			<th class="th_keyFlg">鍵</th>
+     			<th class="th_roomCreater">作成者</th>
+      		</tr>
+			<tr>
+      			<td class="td_entryCheck"><input type="radio" name="entryCheck_radioBtn" value="false"></td>
+      			<td class="td_roomNo">1101111</td>
+     			<td class="td_contentsName">ああああいああああいああああいああああい</td>
+     			<td class="td_roomInfomation">道明寺ごろうaあああああああああああああああああああああああああああああああああああああああああああああああああ</td>
+     			<td class="td_entryUserNum">21人</td>
+     			<td class="td_keyFlg">有</td>
+     			<td class="td_roomCreater">花京院　亜紀良</td>
+     		</tr>
+			<tr>
+      			<td class="td_entryCheck"><input type="radio" name="entryCheck_radioBtn" value="false"></td>
+      			<td class="td_roomNo">1101111</td>
+     			<td class="td_contentsName">ああああいああああいああああいああああい</td>
+     			<td class="td_roomInfomation">道明寺ごろうaあああああああああああああああああああああああああああああああああああああああああああああああああ</td>
+     			<td class="td_entryUserNum">21人</td>
+     			<td class="td_keyFlg">無</td>
+     			<td class="td_roomCreater">花京院　亜紀良</td>
+     		</tr>
+  		</table>
+		
+	</div>
+	
+	<div class="passTxt_entryBtn_area">
+		<div class="not_errorMessage">
+			<div class="label_passwordKeyTxt">
+				<label>パスワードKey : </label><input type="text" placeholder="PasswordKey">
+			</div>
+			<div class="entry_btn">入室</div>
+		</div>
+		<div class="errorMessage" style="color: red;">エラーメッセージを表示</div>
+	</div>
+		
+		<div class="roomInfo_area">
+ 			<table class="entryRoom_table" border="1">
+				<tr>
+      				<th class="th_entryNo">No</th>
+      				<th class="th_entryName">名前</th>
+      			</tr>
+				<tr>
+      				<td class="td_entryNo">1</td>
+     				<td class="td_entryName">花京院　亜紀良</td>
+     			</tr>
+  			</table>
+  			
+  			<div class="roomInfo_channelInfo_area">
+  				<div class="label_roomInfo">
+					<label>部屋説明</label>
+				 	<div class="txt_roomInfo">
+				  		<label></label>
+				 	</div>
+				</div>
+  				<div class="label_channelInfo">
+					<label>配信チャンネル</label>
+					<div class="txt_channelInfo">
+						<label></label>
+				 	</div>
+				</div> 
+			</div>
+		</div>
+		
+		<div class="roomInfoBtn_area">
+			<div class="update_btn">更新</div>
+			<div class="leave_btn">退出</div>
+		</div>
+		
+		
+	
+	
+	
+	
+	
+</body>
+</html>

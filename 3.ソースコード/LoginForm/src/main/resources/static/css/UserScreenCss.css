@@ -1,0 +1,64 @@
+body {
+  background-color: rgb(255, 218, 168);
+}
+
+.view-area{
+	width: 850px;
+ 	margin:10px auto;
+}
+
+/*タイトルimgエリア*/
+.title_img_area{
+	text-align: center;
+	margin-bottom: 10px;
+}
+.title_img_area img{
+	width: 850px;
+}
+@media screen and (min-width: 1000px){
+	.title_img_area img{
+		width: 850px;
+	}
+}
+
+/*ログアウトボタン*/
+.logout_btn{
+	display: flex;
+	max-width: 140px;
+	max-height: 40px;
+	width: 25%;
+	height: 4%;
+	font-size: 90%;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 10px auto;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*部屋選択エリア*/
+.room_select_area{
+	display: flex;
+	text-align: center;
+	margin-bottom: 10px;
+	padding: 30px 20px;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+/*部屋作成ボタン*/
+.room_select_btn{
+	padding: 40px 60px;
+	margin: 10px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 128, 128);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+}
+
+
+
+
+

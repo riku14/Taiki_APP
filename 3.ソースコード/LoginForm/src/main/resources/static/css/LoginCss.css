@@ -1,0 +1,60 @@
+body {
+  background-color: rgb(255, 218, 168);
+}
+
+/*タイトルエリア*/
+.title_area{
+	text-align: center;
+	padding-top : 50px;
+	font-size: 30px;
+}
+
+/*情報入力エリア*/
+.loginInfomation_description{
+	margin: auto;
+	width: 230px;
+	
+}
+
+/*ユーザーIDラベル*/
+.label_userID{
+	display: flex;
+	padding-left: 15px;
+}
+.label_userID input{
+	width: 100px;
+}
+
+/*ユーザーPassラベル*/
+.label_password{
+	display: flex;
+}
+
+/*ログインボタン*/
+.login_btn{
+	width: 80px;
+	text-align: center;
+	margin-top: 5px;
+	margin-left: 140px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+/*アカウントがない方はボタン*/
+.nothingAcount_btn{
+	width: 220px;
+	text-align: center;
+	margin-top: 15px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 1px 1px rgb(128, 128, 128);
+	cursor: pointer;
+}
+/*エラーメッセージ*/
+.errorMessage{
+	display: none;
+	margin-top:10px;
+	font-size: 12px;
+}
+

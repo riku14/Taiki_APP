@@ -1,0 +1,138 @@
+body {
+  background-color: rgb(255, 218, 168);
+  padding: 20px;
+}
+
+/*タイトルエリア*/
+.title_area{
+	font-size: 30px;
+	text-align: center;
+}
+
+/*メニューへボタン*/
+.logout_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin: 0 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*タイトル、メニューへボタン*/
+.title_header{
+	width: 1125px;
+	max-width: 700px;
+	margin:auto;
+}
+
+/*検索項目エリア*/
+.serchInfo_area{
+	width: 1125px;
+	max-width: 700px;
+	margin: 0 auto 20px auto;
+	display: flex;
+	align-items: flex-end;
+	justify-content:center;
+}
+
+/*検索項目記述*/
+.userInfomation_description{
+	text-align: end;
+}
+
+/*検索ボタンエリア*/
+.btn_area{
+	display: flex;
+	margin-left: 30px;
+}
+
+/*クリアボタン*/
+.clear_btn{
+	display: flex;
+	width: 70px;
+	height: 30px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*表示ボタン*/
+.view_btn{
+	display: flex;
+	width: 70px;
+	height: 30px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*テーブルエリア*/
+table{
+	margin: auto;
+	width: 658px;
+}
+table td{
+	text-align: center;
+}
+
+.label_deleteCheck{
+	width: 30px;
+}
+.label_userID{
+	width: 200px;
+}
+.label_userName{
+	width: 200px;
+}
+.label_roomNo{
+	width: 200px;
+}
+
+/*更新ボタンエリア*/
+.kousinBtn_area{
+	display: flex;
+	width: 700px;
+	min-width: 700px;
+	justify-content: flex-end;
+	margin:auto;
+}
+
+/*更新ボタン*/
+.update_btn{
+	display: flex;
+	width: 100px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+

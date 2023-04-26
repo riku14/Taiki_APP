@@ -1,0 +1,42 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link th:href="@{/css/UserRegisterCss.css}" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src=""></script>
+</head>
+<body>
+	<div class="title_area">システム登録画面</div>
+		<div class="label_userID">
+			<label>ID : </label><input type="text" placeholder="ユーザーID">
+			<div class="check_btn">確認</div>
+		</div>
+	
+	<div class="register_infomation_area">
+		<div class="label_password">
+			<label>Pass : </label><input type="text" placeholder="Password">
+		</div>
+		<div class="label_userName">
+			<label>ユーザー名 : </label><input type="text" placeholder="UserName">
+		</div>
+		<div class="label_sex">
+			<label>性別 : </label><input type="text" placeholder="Sex">
+		</div>
+		<div class="label_age">
+			<label>年齢 : </label><input type="text" placeholder="Age">
+		</div>
+
+		
+
+		<div class="label_streamer_infomation">配信する方向け</div>
+		<div class="label_stream_channel">
+			<label>配信チャンネル : </label><input type="text" placeholder="StreamChannel">
+		</div>
+	</div>
+	<div class="btn_area">
+		<div class="userScreen_redirectBtn">システムトップ画面へ</div>
+		<div class="register_btn">登録</div>
+	</div>
+	<div class="errorMessage" style="color: red;">エラーメッセージを表示</div>
+	
+</body>
+</html>

@@ -1,0 +1,23 @@
+<html>
+<head>
+  <meta charset="utf-8">
+  <link th:href="@{/css/LoginCss.css}" rel="stylesheet" type="text/css">
+  <script th:src=”@{/js/LoginJs.js}” th:inline=”javascript” type=”text/javascript” ></script>
+</head>
+<body>
+	<div class="title_area">待機くん</div>
+	<div class="loginInfomation_description">
+		<div class="label_userID">
+				<label>ID : </label><input type="text" placeholder="ユーザーID">
+		</div>
+		<div class="label_password">
+			<label>Pass : </label><input type="text" placeholder="Password">
+		</div>
+		<form action="/example/LoginCtrl/LoginCheck" method="post">
+		<div class="login_btn" onclick="loginClick()">ログイン</div>
+		<div class="nothingAcount_btn">アカウントがない方はこちら</div>
+		<div class="errorMessage" style="color: red;">エラーメッセージを表示</div>
+	</div>
+</body>
+</html>
+

@@ -1,0 +1,317 @@
+body {
+  background-color: rgb(255, 218, 168);
+  padding: 20px;
+}
+
+/*タイトル、メニューへボタン*/
+.title_header{
+	width: 1125px;
+	max-width: 900px;
+	margin:auto;
+}
+
+/*タイトルエリア*/
+.title_area{
+	text-align: center;
+	padding-top : 30px;
+	font-size: 30px;
+}
+
+/*メニューへボタン*/
+.redirectMenu_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin: 0 0 10px auto;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*検索表示エリア*/
+.serchView_area{
+	display: flex;
+	width: 1125px;
+	margin: auto;
+	justify-content: center;
+}
+
+/*部屋検索エリア*/
+.roomSerch_area{
+	width: 340px;
+	height: 110px;
+	padding: 20px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+/*部屋Noラベル*/
+.label_roomNo{
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+	padding-left: 42px;
+}
+.label_roomNo input{
+	width: 100px;
+	height: 25px;
+}
+
+/*コンテンツ名ラベル*/
+.label_contentsName{
+	display: flex;
+	align-items: center;
+	padding-bottom: 10px;
+}
+.label_contentsName label{
+	width: 109px;
+}
+.label_contentsName input{
+	width: 230px;
+	height: 25px;
+}
+
+/*クリアボタン*/
+.clear_btn{
+	display: flex;
+	width: 60px;
+	height: 15px;
+	padding: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*部屋検索ボタンエリア*/
+.serchBtn_area{
+	display: flex;
+}
+
+/*部屋検索ボタン*/
+.serchRoom_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin: 0 0 0 auto;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*部屋検索結果テーブル*/
+table{
+	height: 60px;
+	text-align: center;
+	margin-left: 10px;
+	background-color: rgb(255, 255, 255);
+}
+table th{
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+}
+table td{
+	height: 30px;
+	background-color: rgb(255, 255, 255);
+}
+
+.th_entryCheck{
+	width: 20px;
+}
+.th_roomNo{
+	width: 60px;
+}
+.td_contentsName{
+	width: 100px;
+	font-size: 10px;
+}
+.td_roomInfomation{
+	width: 250px;
+	font-size: 10px;
+}
+.th_entryUserNum{
+	width: 40px;
+}
+.th_keyFlg{
+	width: 20px;
+}
+.th_roomCreater{
+	width: 100px;
+}
+
+/*パスワードKeyとボタンのエリア*/
+.passTxt_entryBtn_area{
+	align-items: center;
+	width: 1125px;
+	margin: 10px auto 0 auto;
+}
+
+/*エラーメッセージを除いた範囲*/
+.not_errorMessage{
+	display: flex;
+	margin: 0 0 0 auto;
+}
+
+
+/*パスワードKey記入ラベル*/
+.label_passwordKeyTxt{
+	margin: 0 0 0 auto;
+}
+.label_passwordKeyTxt input{
+	width: 100px;
+	height: 25px;
+}
+
+/*入室ボタン*/
+.entry_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*エラーメッセージ*/
+.errorMessage{
+	justify-content: flex-end;
+	margin:10px 0 0 auto;
+	font-size: 12px;
+	display: flex;
+	display: none;
+	
+}
+
+/*部屋情報エリア*/
+.roomInfo_area{
+	display: flex;
+	width: 1125px;
+	margin:auto;
+	justify-content: center;
+}
+
+/*部屋参加者テーブル*/
+.entryRoom_table{
+	width: 270px;
+	margin-top: 20px;	
+}
+.th_entryNo{
+	width: 30px;
+}
+.th_entryName{
+	width: 130px;
+}
+
+/*部屋説明*/
+.roomInfo_channelInfo_area{
+	margin: 20px 0 0 30px;
+}
+
+/*部屋説明*/
+.label_roomInfo{
+	display: table;
+	height: 25px;
+	width: 500px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+.label_roomInfo label{
+	display: flex;
+	justify-content: center;
+}
+
+.label_channelInfo{
+	display: table;
+	height: 25px;
+	width: 500px;
+	margin-top: -2px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+.label_channelInfo label{
+	display: flex;
+	justify-content: center;
+}
+
+.txt_roomInfo{
+	width: 500px;
+	height: 150px;
+	margin-left: -1px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+.txt_channelInfo{
+	width: 500px;
+	height: 70px;
+	margin-left: -1px;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+}
+
+.txt_roomInfo label{
+	display: flex;
+	justify-content: flex-start;
+}
+.txt_channelInfo label{
+	display: flex;
+	justify-content: flex-start;
+}
+
+/*更新ボタン*/
+.update_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 255, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+/*退出ボタン*/
+.leave_btn{
+	display: flex;
+	width: 80px;
+	height: 15px;
+	padding: 10px;
+	margin-left: 10px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(0, 0, 0);
+	background-color: rgb(255, 128, 255);
+	box-shadow: 2px 2px 2px 2px rgb(128, 128, 128);
+	cursor: pointer;
+}
+
+/*部屋情報ボタンエリア*/
+.roomInfoBtn_area{
+	display: flex;
+	width: 1125px;
+	margin: 10px auto 0 auto;
+}
+.roomInfoBtn_area div{
+	margin: 0 0 0 auto;
+}
+
+
+
+
