@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.Entry.UserMapper">
+	<insert id="insertOne">
+		insert into m_user (USER_ID, USER_PASS, USER_FIRSTNAME, USER_LASTNAME, USER_YUKYUBI, UPDATE_DAY, CREATE_DAY, IS_DLTFLG, IS_ADMINISTRATOR)
+		values(#{user_id}, #{user_pass}, #{user_firstname}, #{user_lastname}, #{user_yukyubi}, '2024/07/01', '2024/07/01', '0', '0')
+		
+	</insert>
+	
+	
+	
+</mapper>
+
+
+
+

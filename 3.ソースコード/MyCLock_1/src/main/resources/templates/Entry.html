@@ -1,0 +1,43 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="utf-8">
+  <link th:href="@{/css/CommonLayoutCss.css}" rel="stylesheet" type="text/css" />
+  <link th:href="@{/css/CommonCss.css}" rel="stylesheet" type="text/css" />
+  
+  <script th:src="@{/js/CommonLayoutJs.js}"></script>
+</head>
+<body>
+	<div th:replace="/CommonLayout::header"></div>
+
+	<div class="userSerchView_area">
+    	<div class="kensakuInfoBtn_area">
+    		<div class="kensakuInfo_area">
+			<form action="/Entry/CreateUser" method="post" name="createUser" th:object = "${entryForm}">
+				<div class="kensakuInfoUserID_area">
+					<label for="USER_ID">ユーザーID：</label>
+					<input type="text" name="inputUserID" th:field="*{USER_ID}">
+				</div>	
+				<div class="kensakuInfoUserPass_area">
+					<label for="USER_PASS">Password：</label>
+					<input type="text" name="inputUserPass" th:field="*{USER_PASS}">
+				</div>	
+				<div class="kensakuInfoUserFName_area">
+					<label for="USER_FIRSTNAME">氏名　性　：</label for="USER_ID">
+					<input type="text" name="inputFName" th:field="*{USER_FIRSTNAME}">
+				</div>	
+				<div class="kensakuInfoUserLName_area">
+					<label for="USER_LASTNAME">氏名　名　：</label>
+					<input type="text" name="inputLName" th:field="*{USER_LASTNAME}">
+				</div>	
+				<div class="kensakuInfoUserYukyubi_area">
+					<label for="USER_YUKYUBI">有休日　：</label>
+					<input type="text" name="inputYukyubi" th:field="*{USER_YUKYUBI}">
+				</div>	
+			</form>
+			</div>
+			<div class="serchBtn_area">
+				<div class="sizeS_btn" onclick="EntryBtnClick()">登録</div>
+			</div>
+		</div>
+		
+	</div>
